@@ -12,47 +12,36 @@
 </script>
 	<form action="" method="post">
 		<label for="name">Name</label>
-		<input id="name" type="text" placeholder="Name" required>
-		
+		<input id="name" type="text" placeholder="Name" name="name" required>
 
 		<label for="email">Email</label>
-		<input id="email" type="email" placeholder="Email" required>
-		
+		<input type="Email" id="email" placeholder="Email" required>
 
 		<label for="gender_m">Gender-Male</label>
-		<input id="gender_m" type="Radio" value="male" name="Gender" required> Male
+		<input type="Radio" id="gender_m" name="gender" required>
 		<label for="gender_f">Gender-Female</label>
-		<input id="gender_f" type="Radio" value="female" name="Gender" required> Female
-		
+		<input type="Radio" id="gender_f" name="gender" required>
 
 		<label for="cars">Cars</label>
 		<select type="Select" id="cars" placeholder="--please choose an option--" required>
 			<option>range rover</option>
 		</select>
-		
-
 		<label for="age">Age</label>
-								
-		<input id="age" type="number" required>
-		
+		<input type="number" id="age" placeholder="Age" required>
 
-		<lable for="dob">DOB</lable>
-		<input id="dob" type="date" required>
-		
+		<label for="dob">dob</label>
+		<input type="date" id="dob" required>
 
-		<label for="tel">Phone Number</label>
-		<input id="tel" type="tel" placeholder="xxx-xxx-xxxx">
-		
+		<label for="tel">Tel</label>
+		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx">
 
-		<lable for="password">Password</lable>
-		<input id="password" type="password" placeholder="Password" required>
-		
+		<label for="password">Password</label>
+		<input type="password" id="password" placeholder="password" required>
 
 		<label for="tos">I agree to the TOS</label>
-		<input id="tos" type="checkbox" required>
-		
+		<input type="checkbox" id="tos" required>
 
-	<button type="button">Submit</button>
+		<button type="submit">submit</button>
 		
 		
 	</form>
